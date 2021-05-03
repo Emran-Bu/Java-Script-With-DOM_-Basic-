@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Check Box</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <div class="container" id="cont">
+
+      <h1 id="title" class="text-center my-3">Introduction To DOM</h1>
+
+      <ul class="list-group my-3" id="list">
+        <li class="list-group-item" name="list-item-one">One</li>
+        <li class="list-group-item">two</li>
+        <li class="list-group-item">three</li>
+      </ul>
+
+      <div class="form-group">
+        <label for="name">What is your Name</label>
+        <input class="form-control" id="name" type="text" name="" value="" placeholder="Enter your name">
+        <p id="P-1"></p>
+      </div>
+
+      <div class="my-4">
+        <label for="">Choose Your Skills</label>
+        <div class="form-check">
+          <input class="form-check-input" id="gridcheck1" type="checkbox" name="Skills" value="C Programming">
+          <label class="form-check-label" for="gridcheck1">C Programming</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" id="gridcheck2" type="checkbox" name="Skills" value="java Programming">
+          <label class="form-check-label" for="gridcheck2">java Programming</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" id="gridcheck3" type="checkbox" name="Skills" value="Java Script">
+          <label class="form-check-label" for="gridcheck3">Java Script</label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" id="gridcheck4" type="checkbox" name="Skills" value="Python">
+          <label class="form-check-label" for="gridcheck4">Python </label>
+        </div>
+
+        <div class="">
+          <p class="lead"> <strong>Selected Skills:</strong> <span id="result"> </span>  </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- <script src="js/jquery-3.5.1.min.js" charset="utf-8"></script> -->
+    <!-- <script src="js/bootstrap.bundle.min.js" charset="utf-8"></script> -->
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
